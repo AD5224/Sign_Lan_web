@@ -1,0 +1,176 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    background: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logout-button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.logout-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Dashboard main layout */
+.dashboard-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Video Section */
+.video-section {
+    flex: 2;
+    background: white;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.video-frame {
+    margin-top: 20px;
+    border: 5px solid #4CAF50;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.video-frame img {
+    width: 640px;
+    height: 480px;
+}
+
+/* Output Section */
+.output-section {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.text-output p {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.audio-controls {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.audio-controls button {
+    padding: 12px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.audio-controls button:hover {
+    background: #45a049;
+}
+
+/* ------------------------- */
+/* Forms (Login and Signup)  */
+/* ------------------------- */
+
+.form-container {
+    width: 400px;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form-container h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #333;
+}
+
+.form-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form-button:hover {
+    background-color: #45a049;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ------------------------- */
+/* Split layout for Login/Signup Pages */
+/* ------------------------- */
+
+.split-container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.split-left {
+    flex: 1;
+    background: url('../images/Sign Lan.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.split-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+}

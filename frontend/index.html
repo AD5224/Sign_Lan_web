@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login | Sign Language Recognition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="split-container">
+        <!-- Left side: Background image -->
+        <div class="split-left">
+            <!-- Background image handled via CSS -->
+        </div>
+
+        <!-- Right side: Login form -->
+        <div class="split-right">
+            <div class="form-container">
+                <h1>Login</h1>
+                <form method="POST" action="/login">
+                    <input type="text" name="username" placeholder="Username" required><br>
+                    <input type="password" name="password" placeholder="Password" required><br>
+                    <button type="submit" class="form-button">Login</button>
+                </form>
+                <p>Don't have an account? <a href="/signup">Signup</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

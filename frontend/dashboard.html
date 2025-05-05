@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard | Sign Language Recognition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+<body>
+    <div class="navbar">
+        <h2>Gesture Recognition Dashboard</h2>
+        <form method="POST" action="/logout">
+            <button type="submit" class="logout-button">Logout</button>
+        </form>
+    </div>
+
+    <div class="dashboard-container">
+        <div class="video-section">
+            <h1>Live Gesture Recognition</h1>
+            <div class="video-frame">
+                <img src="{{ url_for('video_feed') }}" id="video-feed" alt="Video Feed">
+            </div>
+            <button onclick="addSpace()" class="space-button">➕ Add Space</button>
+            <button onclick="clearSentence()" class="clear-button">🧹 Clear Sentence</button>
+        </div>
+
+        <div class="output-section">
+            <h2>Predicted Output</h2>
+            <div class="text-output">
+                <p><strong>English:</strong> <span id="english-text"></span></p>
+                <p><strong>Hindi:</strong> <span id="hindi-text"></span></p>
+                <p><strong>Marathi:</strong> <span id="marathi-text"></span></p>
+            </div>
+            <div class="audio-controls">
+                <button onclick="playEnglish()">🔊 Play English Speech</button>
+                <button onclick="playHindi()">🔊 Play Hindi Speech</button>
+                <button onclick="playMarathi()">🔊 Play Marathi Speech</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
