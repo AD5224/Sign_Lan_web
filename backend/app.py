@@ -10,7 +10,7 @@ from googletrans import Translator
 from gtts import gTTS
 from io import BytesIO
 import os
-from function import *  # your helper file
+from backend.function import *  # your helper file
 
 app = Flask(__name__, template_folder='../frontend', static_folder='../frontend/assets')
 app.secret_key = '9a8d9b1dcd314758b9487db5692492b8'
