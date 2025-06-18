@@ -74,7 +74,7 @@ cd Sign_Language_Recognition
 pip install -r requirements.txt
 3. Run the Flask app
 
-python apptry.py
+python app.py
 Open your browser at: http://localhost:5000
 
 🎮 Controls
