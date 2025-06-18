@@ -41,6 +41,7 @@ This project enables real-time sign language detection using a webcam. Hand gest
 ---
 
 ## 📦 Project Structure
+```bash
 
 Sign_Language_Recognition/
 ├── backend/ # Python logic
