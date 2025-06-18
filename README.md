@@ -16,7 +16,13 @@ This project enables real-time sign language detection using a webcam. Hand gest
 
 ---
 
-## Demo Video
+## 🎬 Demo Video
+
+<video width="100%" controls>
+  <source src="https://github.com/AD5224/Sign_Language_Recognition/blob/main/SIGNLANV.mp4?raw=true" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ## 🛠️ Tech Stack
 
