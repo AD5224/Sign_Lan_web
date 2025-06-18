@@ -78,10 +78,10 @@ python apptry.py
 Open your browser at: http://localhost:5000
 
 🎮 Controls
-Key Press	Action
-s	Insert space
-v	Speak predicted text
-q	Quit webcam preview
+Key Press   	  Action
+Insert Space	  Insert space
+Speech Buttons  Speak predicted text
+Logout         	Quit webcam preview
 
 📈 Future Improvements
 Sentence/phrase-level recognition
