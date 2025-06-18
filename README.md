@@ -12,7 +12,7 @@
 
 ## 🔍 About the Project
 
-This project enables real-time sign language detection using a webcam. Hand gestures are detected using **MediaPipe**, landmarks are passed to an **LSTM model** for prediction, and the output is converted to both **text** and **speech** using `pyttsx3`. The application is wrapped in a lightweight **Flask** web interface for interaction.
+This project enables real-time sign language detection using a webcam. Hand gestures are detected using **MediaPipe**, landmarks are passed to an **LSTM model** for prediction, and the output is converted to both **text** and **speech** using `gtts`. The application is wrapped in a lightweight **Flask** web interface for interaction.
 
 ---
 
