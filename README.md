@@ -52,9 +52,7 @@ Sign_Language_Recognition/
 ├── Procfile # For deployment
 └── README.md # Project overview
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -66,14 +64,10 @@ Edit
 git clone https://github.com/your-username/Sign_Language_Recognition.git
 cd Sign_Language_Recognition
 2. Install dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 3. Run the Flask app
-bash
-Copy
-Edit
+
 python apptry.py
 Open your browser at: http://localhost:5000
 
