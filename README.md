@@ -26,7 +26,7 @@ This project enables real-time sign language detection using a webcam. Hand gest
 | Backend      | Flask (Python)                           |
 | ML Model     | LSTM with Keras/TensorFlow               |
 | Vision       | OpenCV, MediaPipe                        |
-| Voice Output | pyttsx3 (Text-to-Speech)                 |
+| Voice Output | gtts (Text-to-Speech)                 |
 
 ---
 
