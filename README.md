@@ -84,10 +84,6 @@ Speech Buttons  Speak predicted text
 Logout         	Quit webcam preview
 
 📈 Future Improvements
-Sentence/phrase-level recognition
 
 Voice-to-sign translation
-
-Dynamic gesture detection
-
 Cloud-based deployment
